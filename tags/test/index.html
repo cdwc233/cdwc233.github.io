@@ -8,7 +8,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="/null">
     <link rel="icon" type="image/png" href="/null">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-    <title>第一篇(test) - 油条的博客</title>
+    <title>Tags - test - 油条的博客</title>
     
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     
@@ -374,6 +374,14 @@ header .header__right .dropdown-menus .dropdown-menu {
 <div class="header__right">
 	<div class="navbar__menus">
 		
+		<a href="/tags/" class="button">
+			<div class="navbar-menu">标签</div>
+		</a>
+		
+		<a href="/about/" class="button">
+			<div class="navbar-menu">关于</div>
+		</a>
+		
 	</div>
 	
 	<a href="/search/" class="button">
@@ -407,6 +415,12 @@ header .header__right .dropdown-menus .dropdown-menu {
 	</a>
 	<div class="dropdown-menus" id="dropdown-menus">
 		
+		<a href="/tags/" class="dropdown-menu button">标签</a>
+		<br>
+		
+		<a href="/about/" class="dropdown-menu button">关于</a>
+		<br>
+		
 	</div>
 </div>
 
@@ -417,72 +431,23 @@ header .header__right .dropdown-menus .dropdown-menu {
             
 
 <article class="page">
-<div id="post-meta-m">
-    <div class="post-meta" id="post-meta">
-  <h3>第一篇(test)</h3>
-    
-      <span class="post-meta-label">
-        YouTiao_233
-      </span>
-    
-    
-      <span class="post-meta-label">
-        <span class="p-dot"></span>
-        <time datetime="2022-05-02 19:51" pubdate>
-          2022-05-02
-        </time>
-      </span>
+  <div class="archive-list">
+    <p class="h4">1 posts in total.</p>
+    <hr>
     
     
       
-      <span class="post-meta">
-        <span class="p-dot"></span>
-        共 18 字
-      </span>
-    
-    
-    
-  </div>
-  
-</div>
-<div class="article-m">
-  <div class="post-toc">
-    
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BE%90%E6%96%87%E8%B6%85%EF%BC%8C%E6%88%91%E5%A5%BD%E5%96%9C%E6%AC%A2%E4%BD%A0"><span class="toc-number">1.</span> <span class="toc-text">徐文超，我好喜欢你</span></a></li></ol>
-    
-  </div>
-    <div id="article">
-      <div id="post-content" class="markdown-body textretty">
-        <h1 id="徐文超，我好喜欢你"><a href="#徐文超，我好喜欢你" class="headerlink" title="徐文超，我好喜欢你"></a>徐文超，我好喜欢你</h1><p>🤤😅🥰</p>
-<p><strong>特别</strong> 喜欢 <del>啥啊</del> <em>你</em></p>
-<hr>
-<p>just for fun</p>
-
-      </div>
-    </div>
-</div>
-
-
-<div class="post-footer">
-  
-
-  <div class="post-copyright">
-    <p style="margin: 5px 0;">文章作者：<a href="/">YouTiao_233</a></p>
-    <p style="margin: 5px 0;">文章链接：<a href="http://cdwc233.github.io/2022/05/02/%E7%AC%AC%E4%B8%80%E7%AF%87-test/">http://cdwc233.github.io/2022/05/02/%E7%AC%AC%E4%B8%80%E7%AF%87-test/</a></p>
-    <p style="margin: 5px 0;">版权声明：本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处，谢谢。</p>
-  </div>
-  
-</div>
-
-    <!-- Comments -->
-    <div class="comments">
         
-        
-    </div>
+        <p class="h5">2022</p>
+      
+      <a href="/2022/05/02/hello-world/" class="list-group-item list-group-item-action">
+        <span class="archive-post-title">Hello World</span>
+        <time style="float: right;">05-02</time>
+      </a>
+    
 
+</div>
 </article>
-
-
         </div>
         
 <footer class="text-center">
@@ -499,8 +464,6 @@ header .header__right .dropdown-menus .dropdown-menu {
 </footer>
 
 <div class="p-btn">
-    
-        <a class="toc-btn" id="toc-btn"><i id="i-menu"></i></a>
     
     <a href="#top" class="click-btn">
       <i id="i-up"></i>
@@ -536,50 +499,8 @@ header .header__right .dropdown-menus .dropdown-menu {
 </script>
 
 
-<script>
-    var postImg = document.querySelectorAll("article[class=page] img");
-    for (let imgi = 0; imgi < postImg.length; imgi++) {
-        postImg[imgi].onclick = () => {
-            let zoomImg = document.createElement("div");
-            zoomImg.id = "zoomImg";
-            zoomImg.innerHTML = `<div id="zoom-picture"></div>
-    <div class="poptrox-overlay"
-        style="position: fixed; left: 0px; top: 0px; z-index: 20000; width: 100%; height: 100%; text-align: center; cursor: zoom-out; opacity: 1;">
-        <div style="display:inline-block;height:100%;vertical-align:middle;"></div>
-        <div
-            style="position:absolute;left:0;top:0;width:100%;height:100%;background:#000000;opacity:0;filter:alpha(opacity=0);">
-        </div>
-        <div class="poptrox-popup"
-            style="display: inline-block; vertical-align: middle; position: relative; z-index: 1; cursor: zoom-out; min-width: 10px; min-height: 10px; width: auto; height: auto;">
-            <div class="loader" style="display: none;"></div>
-            <div class="pic" style="text-indent: 0px;"><img
-                    src="${ postImg[imgi].srcset || postImg[imgi].src }" alt="Loading..."
-                    style="vertical-align: bottom; max-width: 85vw; max-height: 85vh;"></div>
-        </div>
-    </div>`;
-            document.body.appendChild(zoomImg);
-                document.querySelector("#zoomImg").onclick = () => {
-                    document.querySelector("#zoomImg").remove();
-                }
-        }
-    }
-    
-</script>
 
 
-
-
-    <script>
-        query("#toc-btn")[0].onclick = () => {
-            if (query(".post-toc")[0].innerHTML) {
-                toggleClass(".post-toc", "display-inline");
-            }
-        }
-
-        if (!query(".post-toc")[0].innerHTML) {
-            addClass("#toc-btn","display-none");
-        }
-    </script>
 
 
 
